@@ -1,0 +1,28 @@
+Internal Error: Sub-system: THR, File: /quartus/ccl/thr/thr_process.cpp, Line: 478
+OS Failure: Windows could not modify job info
+
+Quartus Prime requested that Windows modify job info, but Windows could not do so.
+Please report the full text of this message to Intel so we can investigate its causes.
+In the meantime, may wish to take the following steps to work around the problem:
+   * Disabled parallel compilation if it is enabled
+   * Ensure you have sufficient memory to run Quartus.
+   * Ensure all service packs and patches from Microsoft are installed
+
+Technical details:
+   * API: result
+   * OS code: 6 (The handle is invalid.)
+
+Stack Trace:
+     0x24df: thr_os_error + 0xcf (ccl_thr)
+     0x2f37: thr_windows_error + 0xb7 (ccl_thr)
+     0x1cc4: thr_process_create_and_save_job + 0x6f4 (ccl_thr)
+     0x399d: IPC_COMMAND::run + 0x41d (ccl_ipc)
+     0x5561: flow_call_cmd_thread + 0x1d1 (sys_flow)
+    0x14a5e: msg_thread_wrapper + 0x6e (CCL_MSG)
+    0x16af0: mem_thread_wrapper + 0x70 (ccl_mem)
+     0x27a1: thr_thread_begin + 0xa1 (ccl_thr)
+    0x17033: BaseThreadInitThunk + 0x13 (KERNEL32)
+    0x52650: RtlUserThreadStart + 0x20 (ntdll)
+
+End-trace
+

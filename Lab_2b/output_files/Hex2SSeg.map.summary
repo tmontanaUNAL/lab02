@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Apr 19 16:41:13 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : Hex2SSeg
+Top-level Entity Name : Hex2SSeg
+Family : Cyclone IV E
+Total logic elements : 1,101
+    Total combinational functions : 1,101
+    Dedicated logic registers : 18
+Total registers : 18
+Total pins : 31
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

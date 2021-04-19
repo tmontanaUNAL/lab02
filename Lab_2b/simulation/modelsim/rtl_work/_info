@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b/simulation/modelsim
+vBCDtoSSeg
+Z1 !s110 1618414911
+!i10b 1
+!s100 dPZ^[1PlOV45kZe3Pno?N1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ikj36HIDKfH2ejz5?E=GBi3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1618351783
+8E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b/BCDtoSSeg.v
+FE:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b/BCDtoSSeg.v
+!i122 1
+L0 1 28
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1618414911.000000
+!s107 E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b/BCDtoSSeg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b|E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b/BCDtoSSeg.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b}
+Z8 tCvgOpt 0
+n@b@c@dto@s@seg
+vHex2SSeg
+R1
+!i10b 1
+!s100 GcJY1z>V8kX;UlJmJCe=o1
+R2
+Il3:W:b6RDa>d9bLFzB]zl0
+R3
+R0
+w1618414137
+8E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b/Hex2SSeg.v
+FE:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b/Hex2SSeg.v
+!i122 0
+L0 4 68
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b/Hex2SSeg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b|E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b/Hex2SSeg.v|
+!i113 1
+R6
+R7
+R8
+n@hex2@s@seg
+vtestbench
+R1
+!i10b 1
+!s100 h5j8iDh3[4a3Qk66bO[:L0
+R2
+IF_RGePJ;EjFC72;ikmm6a0
+R3
+R0
+w1618412760
+8E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b/testbench.v
+FE:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b/testbench.v
+!i122 2
+L0 25 40
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b|E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/Lab_2b/testbench.v|
+!i113 1
+R6
+R7
+R8
