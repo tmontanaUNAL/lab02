@@ -7,12 +7,12 @@ Tizzian Santiago Montana Saavedra
 
 ## BDC2SSeg
 
-En la carpetaBDC2SSeg se encuenta el proyecto de quartus para el bloque que pasa de BCD a 7 segmentos.
+En la carpeta BDC2SSeg se encuenta el proyecto de quartus para este el módulo
 
-A continuación se presenta el resultado de la simulacion del bloque
+A continuación se presenta el resultado de la simulacion del modulo
 ![image](https://user-images.githubusercontent.com/80001669/115319290-0c883300-a145-11eb-8490-6006f72f0f35.png)
 
-Como vemos el bloque toma una entrada en BDC de un solo dígito (4 bits) y en la salida nos da el digito en 7 segmentos, en resumen este es un decoder BCD a 7 segementos.
+Como vemos el módulo toma una entrada en BDC de un solo dígito (4 bits) y en la salida nos da el digito en 7 segmentos, en resumen este es un decoder BCD a 7 segementos.
 
 Aquí se presenta como se relacionan los bits de la salida con el display
 ![image](https://user-images.githubusercontent.com/80001669/115320137-e19ede80-a146-11eb-8047-0ca35079db35.png)
@@ -26,6 +26,8 @@ Tomada de de: http://juandgallego.blogspot.com/2017/04/manejo-display-7-segmento
 NOTA: aqui se muestra una entrada en hexadecimal pero solo se probaron los numero de 0 a 9 porque son estos los que interesan en este dispositivo, por ser la entrada en BCD.
 
 ## BDC2SSeg de 2 digitos con visualizacion dinamica
+
+En la carpeta Lab_2b se encuenta el proyecto de quartus para este módulo.
 
 Este solo permite entrada en BCD de 2 digitos, es decir se tienen 8 bits de entrada, los 4 menos significativos son las unidades y los demás las decenas, además, solo permite que los digitos sean de 0 a 9, y el resultado se da en decimal en los 7 segmentos.
 
