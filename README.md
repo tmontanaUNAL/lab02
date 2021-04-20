@@ -26,3 +26,7 @@ Tomada de de: http://juandgallego.blogspot.com/2017/04/manejo-display-7-segmento
 NOTA: aqui se muestra una entrada en hexadecimal pero solo se probaron los numero de 0 a 9 porque son estos los que interesan en este dispositivo, por ser la entrada en BCD.
 
 https://user-images.githubusercontent.com/80001669/115319346-38a3b400-a145-11eb-9228-902ba3cf8896.mp4
+
+
+Como se puede evidenciar en el anterior video  las entradas numéricas  se hacen en formato BCD, y  la tarjeta muestra el numero en formato decimal, lo cual es lo coherente con la simulación del testbench realizado en la plataforma quartus.
+Cundo se ingresan números en formato BCD , tanto sus unidades como sus decenas tienen que ser menores a 9 dado que del lo contrario se marcara como error , esto es debido a que en formato BCD solo se admiten valores de 0 a 9 en cada posición. 
