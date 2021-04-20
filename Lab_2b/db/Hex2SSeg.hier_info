@@ -1,20 +1,20 @@
 |Hex2SSeg
 num[0] => LessThan0.IN8
-num[0] => Selector3.IN4
+num[0] => bcd.DATAA
 num[1] => LessThan0.IN7
-num[1] => Selector2.IN4
+num[1] => bcd.DATAA
 num[2] => LessThan0.IN6
-num[2] => Selector1.IN4
+num[2] => bcd.DATAA
 num[3] => LessThan0.IN5
-num[3] => Selector0.IN4
+num[3] => bcd.DATAA
 num[4] => LessThan1.IN8
-num[4] => Selector3.IN3
+num[4] => bcd.DATAB
 num[5] => LessThan1.IN7
-num[5] => Selector2.IN3
+num[5] => bcd.DATAB
 num[6] => LessThan1.IN6
-num[6] => Selector1.IN3
+num[6] => bcd.DATAB
 num[7] => LessThan1.IN5
-num[7] => Selector0.IN3
+num[7] => bcd.DATAB
 clk => cfreq[0].CLK
 clk => cfreq[1].CLK
 clk => cfreq[2].CLK
@@ -42,18 +42,18 @@ clk => cfreq[23].CLK
 clk => cfreq[24].CLK
 clk => cfreq[25].CLK
 clk => cfreq[26].CLK
-sseg[0] <= BCDtoSSeg:bcdtosseg.SSeg[0]
-sseg[1] <= BCDtoSSeg:bcdtosseg.SSeg[1]
-sseg[2] <= BCDtoSSeg:bcdtosseg.SSeg[2]
-sseg[3] <= BCDtoSSeg:bcdtosseg.SSeg[3]
-sseg[4] <= BCDtoSSeg:bcdtosseg.SSeg[4]
-sseg[5] <= BCDtoSSeg:bcdtosseg.SSeg[5]
-sseg[6] <= BCDtoSSeg:bcdtosseg.SSeg[6]
-an[0] <= an[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-an[1] <= an[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-an[2] <= an[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-an[3] <= an[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-an[4] <= an[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sseg[0] << BCDtoSSeg:bcdtosseg.SSeg[0]
+sseg[1] << BCDtoSSeg:bcdtosseg.SSeg[1]
+sseg[2] << BCDtoSSeg:bcdtosseg.SSeg[2]
+sseg[3] << BCDtoSSeg:bcdtosseg.SSeg[3]
+sseg[4] << BCDtoSSeg:bcdtosseg.SSeg[4]
+sseg[5] << BCDtoSSeg:bcdtosseg.SSeg[5]
+sseg[6] << BCDtoSSeg:bcdtosseg.SSeg[6]
+an[0] << an[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+an[1] << an[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+an[2] << an[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+an[3] << an[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+an[4] << an[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 rst => cfreq.OUTPUTSELECT
 rst => cfreq.OUTPUTSELECT
 rst => cfreq.OUTPUTSELECT
@@ -81,12 +81,16 @@ rst => cfreq.OUTPUTSELECT
 rst => cfreq.OUTPUTSELECT
 rst => cfreq.OUTPUTSELECT
 rst => cfreq.OUTPUTSELECT
+rst => count.OUTPUTSELECT
+rst => count.OUTPUTSELECT
+rst => count.OUTPUTSELECT
+rst => count2.OUTPUTSELECT
 rst => an.OUTPUTSELECT
 rst => an.OUTPUTSELECT
 rst => an.OUTPUTSELECT
 rst => an.OUTPUTSELECT
 rst => an.OUTPUTSELECT
-led <= cfreq[12].DB_MAX_OUTPUT_PORT_TYPE
+led << cfreq[5].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Hex2SSeg|BCDtoSSeg:bcdtosseg

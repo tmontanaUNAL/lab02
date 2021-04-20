@@ -25,12 +25,12 @@
 module testbench;
 
 	// Inputs
-	reg [15:0] num;
+	reg [7:0] num;
 	reg clk2;
 	reg rst;
 
 	// Outputs
-	wire [0:6] sseg;
+	wire [6:0] sseg;
 	wire [4:0] an;
 
 	// Instantiate the Unit Under Test (UUT)
@@ -45,10 +45,10 @@ module testbench;
 	initial begin
 		// Initialize Inputs
 		clk2= 0;
-		rst = 1;
-		#10 rst =0;
+		rst = 0;
+		#10 rst =1;
 		
-		num = 16'h4321;
+		num = 8'hf4;
         
 
 	end
@@ -58,7 +58,7 @@ module testbench;
 	
 	initial begin: TEST_CASE
      $dumpfile("BCDtoSSeg_TB.vcd");
-     #(500) $finish;
+     #(1000) $finish;
    end
 	
 endmodule
