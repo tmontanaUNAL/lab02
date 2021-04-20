@@ -20,6 +20,8 @@ always @ ( * ) begin
    4'hd: SSeg = 7'b1000010; // D
    4'he: SSeg = 7'b0110000; // E
    4'hf: SSeg = 7'b0111000; // F
+	
+	
     default:
     SSeg = 0; // si no coincide ningun caso, el display no muestra nada
   endcase
