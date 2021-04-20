@@ -32,4 +32,4 @@ Como se puede evidenciar en el anterior video  las entradas numéricas  se hacen
 
 Cundo se ingresan números en formato BCD , tanto sus unidades como sus decenas tienen que ser menores a 9 dado que del lo contrario se marcara como error , esto es debido a que en formato BCD solo se admiten valores de 0 a 9 en cada posición. 
 
-Es importante notar que los cuatro primeros suich  de derecha a izquierda representan los bits de las unidades, y los 4 suich restantes representan los bits de las  decenas .
+Es importante notar que los cuatro primeros switch  de derecha a izquierda representan los bits de las unidades, y los 4 switch restantes representan los bits de las  decenas .
