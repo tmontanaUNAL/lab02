@@ -21,7 +21,8 @@ Tomada de: https://www.hwlibre.com/display-7-segmentos/
 
 En la salida SSeg tenemos que desde el bit mas significativo hasta el menos el orden de los segmentos es abcdefg, con esto en mente se puede verificar que cada digito en BCD se decodifica correctamente en 7 segementos como se muestra en la siguiente imagen:
 ![image](https://user-images.githubusercontent.com/80001669/115320469-92a57900-a147-11eb-9461-8d7504c45565.png)
-Tomade de: http://juandgallego.blogspot.com/2017/04/manejo-display-7-segmentos-empleando-arduino.html
+
+Tomada de de: http://juandgallego.blogspot.com/2017/04/manejo-display-7-segmentos-empleando-arduino.html
 NOTA: aqui se muestra una entrada en hexadecimal pero solo se probaron los numero de 0 a 9 porque son estos los que interesan en este dispositivo, por ser la entrada en BCD.
 
 https://user-images.githubusercontent.com/80001669/115319346-38a3b400-a145-11eb-9228-902ba3cf8896.mp4
