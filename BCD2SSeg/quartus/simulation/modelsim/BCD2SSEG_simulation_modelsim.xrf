@@ -1,6 +1,6 @@
 vendor_name = ModelSim
-source_file = 1, E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/lab02-master/hdl/src/BCDtoSSeg.v
-source_file = 1, E:/Users/tisam.SUPER-PC/OneDrive - Universidad Nacional de Colombia/Digital I/lab02-master/hdl/quartus/db/BCD2SSEG_simulation.cbx.xml
+source_file = 1, E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/BCD2SSeg/src/BCDtoSSeg.v
+source_file = 1, E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/BCD2SSeg/quartus/db/BCD2SSEG_simulation.cbx.xml
 design_name = BCDtoSSeg
 instance = comp, \SSeg[6]~output , SSeg[6]~output, BCDtoSSeg, 1
 instance = comp, \SSeg[5]~output , SSeg[5]~output, BCDtoSSeg, 1

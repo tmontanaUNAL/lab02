@@ -1,7 +1,7 @@
 module BCDtoSSeg (BCD, SSeg);
 
   input [3:0] BCD; // número a mostrar en el display
-  output reg [6:0] SSeg; // número de entrada convertido para mostrar el digito correcto
+  output reg [6:0] SSeg; // número de entrada convertido para mostrar el dígito correcto
 always @ ( * ) begin
   case (BCD) // se crear una tabla de verdad para cada numero posible en la entrada
    4'b0000: SSeg = 7'b0000001; // "0"  

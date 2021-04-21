@@ -56,6 +56,14 @@
 					"strict" : false
 				},
 				{
+					"name" : "num[0]",
+					"strict" : false
+				},
+				{
+					"name" : "num[4]",
+					"strict" : false
+				},
+				{
 					"name" : "num[3]",
 					"strict" : false
 				},
@@ -77,14 +85,6 @@
 				},
 				{
 					"name" : "num[6]",
-					"strict" : false
-				},
-				{
-					"name" : "num[4]",
-					"strict" : false
-				},
-				{
-					"name" : "num[0]",
 					"strict" : false
 				},
 				{
