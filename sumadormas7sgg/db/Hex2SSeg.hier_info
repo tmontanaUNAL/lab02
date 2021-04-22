@@ -1,0 +1,144 @@
+|Hex2SSeg
+Xi[0] => Xi[0].IN1
+Xi[1] => Xi[1].IN1
+Xi[2] => Xi[2].IN1
+Xi[3] => Xi[3].IN1
+Yi[0] => Yi[0].IN1
+Yi[1] => Yi[1].IN1
+Yi[2] => Yi[2].IN1
+Yi[3] => Yi[3].IN1
+clk => cfreq[0].CLK
+clk => cfreq[1].CLK
+clk => cfreq[2].CLK
+clk => cfreq[3].CLK
+clk => cfreq[4].CLK
+clk => cfreq[5].CLK
+clk => cfreq[6].CLK
+clk => cfreq[7].CLK
+clk => cfreq[8].CLK
+clk => cfreq[9].CLK
+clk => cfreq[10].CLK
+clk => cfreq[11].CLK
+clk => cfreq[12].CLK
+clk => cfreq[13].CLK
+clk => cfreq[14].CLK
+clk => cfreq[15].CLK
+clk => cfreq[16].CLK
+clk => cfreq[17].CLK
+clk => cfreq[18].CLK
+clk => cfreq[19].CLK
+clk => cfreq[20].CLK
+clk => cfreq[21].CLK
+clk => cfreq[22].CLK
+clk => cfreq[23].CLK
+clk => cfreq[24].CLK
+clk => cfreq[25].CLK
+clk => cfreq[26].CLK
+sseg[0] <= BCDtoSSeg:bcdtosseg.SSeg[0]
+sseg[1] <= BCDtoSSeg:bcdtosseg.SSeg[1]
+sseg[2] <= BCDtoSSeg:bcdtosseg.SSeg[2]
+sseg[3] <= BCDtoSSeg:bcdtosseg.SSeg[3]
+sseg[4] <= BCDtoSSeg:bcdtosseg.SSeg[4]
+sseg[5] <= BCDtoSSeg:bcdtosseg.SSeg[5]
+sseg[6] <= BCDtoSSeg:bcdtosseg.SSeg[6]
+an[0] <= an[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+an[1] <= an[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => cfreq.OUTPUTSELECT
+rst => count.OUTPUTSELECT
+rst => an.OUTPUTSELECT
+rst => an.OUTPUTSELECT
+rst => bcd[0].ENA
+rst => bcd[1].ENA
+rst => bcd[2].ENA
+rst => bcd[3].ENA
+led <= cfreq[12].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Hex2SSeg|BCDtoSSeg:bcdtosseg
+BCD[0] => Decoder0.IN3
+BCD[1] => Decoder0.IN2
+BCD[2] => Decoder0.IN1
+BCD[3] => Decoder0.IN0
+SSeg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+SSeg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+SSeg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+SSeg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+SSeg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+SSeg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SSeg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Hex2SSeg|sumador4bit:sum4
+xi[0] => xi[0].IN1
+xi[1] => xi[1].IN1
+xi[2] => xi[2].IN1
+xi[3] => xi[3].IN1
+yi[0] => yi[0].IN1
+yi[1] => yi[1].IN1
+yi[2] => yi[2].IN1
+yi[3] => yi[3].IN1
+co <= sumador1:s3.Cout
+zi[0] <= sumador1:s0.S
+zi[1] <= sumador1:s1.S
+zi[2] <= sumador1:s2.S
+zi[3] <= sumador1:s3.S
+
+
+|Hex2SSeg|sumador4bit:sum4|sumador1:s0
+A => Add0.IN1
+B => Add0.IN2
+Ci => Add1.IN4
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+S <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Hex2SSeg|sumador4bit:sum4|sumador1:s1
+A => Add0.IN1
+B => Add0.IN2
+Ci => Add1.IN4
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+S <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Hex2SSeg|sumador4bit:sum4|sumador1:s2
+A => Add0.IN1
+B => Add0.IN2
+Ci => Add1.IN4
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+S <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Hex2SSeg|sumador4bit:sum4|sumador1:s3
+A => Add0.IN1
+B => Add0.IN2
+Ci => Add1.IN4
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+S <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
