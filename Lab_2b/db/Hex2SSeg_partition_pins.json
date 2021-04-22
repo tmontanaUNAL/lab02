@@ -44,19 +44,23 @@
 					"strict" : false
 				},
 				{
-					"name" : "an[3]",
-					"strict" : false
-				},
-				{
-					"name" : "an[4]",
-					"strict" : false
-				},
-				{
 					"name" : "led",
 					"strict" : false
 				},
 				{
 					"name" : "num[0]",
+					"strict" : false
+				},
+				{
+					"name" : "num[7]",
+					"strict" : false
+				},
+				{
+					"name" : "num[6]",
+					"strict" : false
+				},
+				{
+					"name" : "num[5]",
 					"strict" : false
 				},
 				{
@@ -68,23 +72,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "num[1]",
-					"strict" : false
-				},
-				{
 					"name" : "num[2]",
 					"strict" : false
 				},
 				{
-					"name" : "num[7]",
-					"strict" : false
-				},
-				{
-					"name" : "num[5]",
-					"strict" : false
-				},
-				{
-					"name" : "num[6]",
+					"name" : "num[1]",
 					"strict" : false
 				},
 				{
