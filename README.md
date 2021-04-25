@@ -35,18 +35,3 @@ Aqui se presenta la simulacion con el numero de entrada 255 en decimal o F4 en h
 ![image](https://user-images.githubusercontent.com/80001669/115978104-ef87a180-a542-11eb-994c-ebcd94075288.png)
 
 Vemos que en los displays se muestran correctamente todos los dígitos, ademas se ve que cada display solo esta prendido por cierto tiempo y van tomando turnos, esto es la visualizacion dinámica. 
-
-https://user-images.githubusercontent.com/80001669/115319346-38a3b400-a145-11eb-9228-902ba3cf8896.mp4
-
-
-Como se puede evidenciar en el anterior video  las entradas numéricas  se hacen en formato BCD, y  la tarjeta muestra el numero en formato decimal, lo cual es lo coherente con la simulación del testbench realizado en la plataforma quartus.
-
-Cundo se ingresan números en formato BCD , tanto sus unidades como sus decenas tienen que ser menores a 9 dado que del lo contrario se marcara como error , esto es debido a que en formato BCD solo se admiten valores de 0 a 9 en cada posición. 
-
-<<<<<<< HEAD
-Como se puede evidenciar en el anterior video  las entradas numéricas  se hacen en formato BCD, y  la tarjeta muestra el numero en formato decimal, lo cual es lo coherente con la simulación del testbench realizado en la plataforma quartus.
-
-Cundo se ingresan números en formato BCD , tanto sus unidades como sus decenas tienen que ser menores a 9 dado que del lo contrario se marcara como error , esto es debido a que en formato BCD solo se admiten valores de 0 a 9 en cada posición. 
-=======
-Es importante notar que los cuatro primeros switch  de derecha a izquierda representan los bits de las unidades, y los 4 switch restantes representan los bits de las  decenas .
->>>>>>> 284a8204b1a8c19161ada01d0e48cb8b7b30f1ee
