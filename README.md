@@ -29,18 +29,12 @@ NOTA: aqui se muestra una entrada en hexadecimal pero solo se probaron los numer
 
 En la carpeta Lab_2b se encuenta el proyecto de quartus para este módulo.
 
-Este solo permite entrada en BCD de 2 digitos, es decir se tienen 8 bits de entrada, los 4 menos significativos son las unidades y los demás las decenas, además, solo permite que los digitos sean de 0 a 9, y el resultado se da en decimal en los 7 segmentos.
+Este permite entrada en binario de 8 bits, además, el resultado se da en decimal en los 7 segmentos.
 
-Aqui se presenta la simulacion con el numero de entrada 75 en decimal.
-![image](https://user-images.githubusercontent.com/80001669/115325769-d56c4e80-a151-11eb-928f-5b363a39f91d.png)
+Aqui se presenta la simulacion con el numero de entrada 255 en decimal o F4 en hexadecimal.
+![image](https://user-images.githubusercontent.com/80001669/115978104-ef87a180-a542-11eb-994c-ebcd94075288.png)
 
-Vemos que en los displays se muestran correctamente ambos dígitos, ademas se ve que cada display solo esta prendido por cierto tiempo y van tomando turnos, esto es la visualizacion dinámica. 
-
-Ahora para el mensaje de error se introdujo en numero F4 en hexadecimal
-![image](https://user-images.githubusercontent.com/80001669/115326443-e6698f80-a152-11eb-89ec-81a78629be1f.png)
-
-Aqui la palabra <ERROR> se escribio con los simbolos (letras) de la representacion en hexadecimal (recordar que el modulo BCD2SSeg incluye estos casos en su salida), con esto la letra E es la misma E del hexadecimal, la R es la A del hexadecimal (ya que se parecen en un 7 segmentos), y la O es un 0.
-  
+Vemos que en los displays se muestran correctamente todos los dígitos, ademas se ve que cada display solo esta prendido por cierto tiempo y van tomando turnos, esto es la visualizacion dinámica. 
 
 https://user-images.githubusercontent.com/80001669/115319346-38a3b400-a145-11eb-9228-902ba3cf8896.mp4
 
