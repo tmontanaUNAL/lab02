@@ -48,3 +48,5 @@ El reto propuesto fue el de unir el BDC2SSeg con el sumador de 4 bit de la anter
 Videao de BDC2SSeg con sumador de 4 bit:https://drive.google.com/file/d/1mWOOo89lWZh9XXA2QTRMmRTOb94BeKT0/view?usp=sharing
 
 
+En el anterior video se muestra que el sumador de 4 bit y el BDC2SSeg , los cuatro primeros switch  representan el primer numero binario , y los 4 restantes representan el segundo numero binario , es así que se puede evidenciar que   ambos componentes funcionan de manera adecuada, dado que se ingresan en formato binario varios números los cuales son mostrados en forma.
+
