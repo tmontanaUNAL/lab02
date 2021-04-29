@@ -43,6 +43,8 @@ En este video se evidencia la implementación del código que nos permite conver
 
 ## Reto
 El reto propuesto fue el de unir el BDC2SSeg con el sumador de 4 bit de la anterior práctica , se presenta a continuación un video que evidencia la implementación  :
+
+
 Videao de BDC2SSeg con sumador de 4 bit:https://drive.google.com/file/d/1mWOOo89lWZh9XXA2QTRMmRTOb94BeKT0/view?usp=sharing
 
 
