@@ -23,7 +23,7 @@ En la salida SSeg tenemos que desde el bit mas significativo hasta el menos el o
 ![image](https://user-images.githubusercontent.com/80001669/115320469-92a57900-a147-11eb-9461-8d7504c45565.png)
 
 Tomada de de: http://juandgallego.blogspot.com/2017/04/manejo-display-7-segmentos-empleando-arduino.html
-NOTA: aqui se muestra una entrada en hexadecimal pero solo se probaron los numero de 0 a 9 porque son estos los que interesan en este dispositivo, por ser la entrada en BCD.
+En el siguiente video se evidencia la implementación del codigo en la FPGA :https://drive.google.com/file/d/1gpFLedrhN5KCcyPYjCq1bApLgi-wcyVn/view?usp=sharing
 
 ## BDC2SSeg de 2 digitos con visualizacion dinamica
 
