@@ -35,3 +35,6 @@ Aqui se presenta la simulacion con el numero de entrada 255 en decimal o F4 en h
 ![image](https://user-images.githubusercontent.com/80001669/115978104-ef87a180-a542-11eb-994c-ebcd94075288.png)
 
 Vemos que en los displays se muestran correctamente todos los dígitos, ademas se ve que cada display solo esta prendido por cierto tiempo y van tomando turnos, esto es la visualizacion dinámica. 
+
+En el siguiente video se evidencia la implementación del codigo en la FPGA :https://drive.google.com/file/d/1gpFLedrhN5KCcyPYjCq1bApLgi-wcyVn/view?usp=sharing
+
