@@ -36,5 +36,5 @@ Aqui se presenta la simulacion con el numero de entrada 255 en decimal o F4 en h
 
 Vemos que en los displays se muestran correctamente todos los dígitos, ademas se ve que cada display solo esta prendido por cierto tiempo y van tomando turnos, esto es la visualizacion dinámica. 
 
-En el siguiente video se evidencia la implementación del codigo en la FPGA :https://drive.google.com/file/d/1gpFLedrhN5KCcyPYjCq1bApLgi-wcyVn/view?usp=sharing
-
+En el  video se evidencia la implementación del codigo en la FPGA :https://drive.google.com/file/d/1gpFLedrhN5KCcyPYjCq1bApLgi-wcyVn/view?usp=sharing
+En este video se evidencia la implementación del código que nos permite convertir de binario a BCD  para luego mostrar este resultado, y se puede ver que funciona de manera adecuado , dado que se ingresan los números en formato binario de 8 bit y los 3 display lo muestran con formato decimal, en este video se prueban diferentes cantidades binarias para asegurarnos del correcto funcionamiento.
