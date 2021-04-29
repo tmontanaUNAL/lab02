@@ -41,4 +41,8 @@ En el  video se evidencia la implementación del codigo en la FPGA :https://driv
 
 En este video se evidencia la implementación del código que nos permite convertir de binario a BCD  para luego mostrar este resultado, y se puede ver que funciona de manera adecuado , dado que se ingresan los números en formato binario de 8 bit y los 3 display lo muestran con formato decimal, en este video se prueban diferentes cantidades binarias para asegurarnos del correcto funcionamiento.
 
-## Union de BDC2SSeg con sumador de 4 bit
+## Reto
+El reto propuesto fue el de unir el BDC2SSeg con el sumador de 4 bit de la anterior práctica , se presenta a continuación un video que evidencia la implementación  :
+Videao de BDC2SSeg con sumador de 4 bit:https://drive.google.com/file/d/1mWOOo89lWZh9XXA2QTRMmRTOb94BeKT0/view?usp=sharing
+
+
