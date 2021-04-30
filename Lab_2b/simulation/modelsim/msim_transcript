@@ -12,39 +12,39 @@
 # 
 # vlog -vlog01compat -work work +incdir+E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b {E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/Hex2SSeg.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:01:30 on Apr 19,2021
+# Start time: 21:17:38 on Apr 24,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b" E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/Hex2SSeg.v 
 # -- Compiling module Hex2SSeg
 # 
 # Top level modules:
 # 	Hex2SSeg
-# End time: 21:01:30 on Apr 19,2021, Elapsed time: 0:00:00
+# End time: 21:17:38 on Apr 24,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b {E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/BCDtoSSeg.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:01:30 on Apr 19,2021
+# Start time: 21:17:38 on Apr 24,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b" E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/BCDtoSSeg.v 
 # -- Compiling module BCDtoSSeg
 # 
 # Top level modules:
 # 	BCDtoSSeg
-# End time: 21:01:30 on Apr 19,2021, Elapsed time: 0:00:00
+# End time: 21:17:38 on Apr 24,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b {E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/testbench.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:01:30 on Apr 19,2021
+# Start time: 21:17:38 on Apr 24,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b" E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/testbench.v 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 21:01:31 on Apr 19,2021, Elapsed time: 0:00:01
+# End time: 21:17:38 on Apr 24,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
-# Start time: 21:01:31 on Apr 19,2021
+# Start time: 21:17:38 on Apr 24,2021
 # Loading work.testbench
 # Loading work.Hex2SSeg
 # Loading work.BCDtoSSeg
@@ -62,5 +62,5 @@
 #    Time: 1 us  Iteration: 0  Instance: /testbench
 # 1
 # Break in NamedBeginStat TEST_CASE at E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/testbench.v line 61
-# End time: 21:16:11 on Apr 19,2021, Elapsed time: 0:14:40
+# End time: 21:22:45 on Apr 24,2021, Elapsed time: 0:05:07
 # Errors: 0, Warnings: 2

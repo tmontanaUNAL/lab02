@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dE:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/simulation/modelsim
 vBCDtoSSeg
-Z1 !s110 1618884090
+Z1 !s110 1619317058
 !i10b 1
 !s100 ;4QmHh8lWjbA]6X]zBj^U1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -26,7 +26,7 @@ Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1618884090.000000
+Z5 !s108 1619317058.000000
 !s107 E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/BCDtoSSeg.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b|E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/BCDtoSSeg.v|
 !i113 1
@@ -37,16 +37,16 @@ n@b@c@dto@s@seg
 vHex2SSeg
 R1
 !i10b 1
-!s100 4]Ae5KgC;FWj8m]^`3<lc3
+!s100 mi<4MKj<A7adLaRkUbh^m0
 R2
-IfLBGG[^:mDe>]beQZVm:@3
+INzW9TYDkb[F1`YoPUCez62
 R3
 R0
-w1618883403
+w1619316985
 8E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/Hex2SSeg.v
 FE:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/Hex2SSeg.v
 !i122 0
-L0 4 67
+L0 4 63
 R4
 r1
 !s85 0
@@ -60,14 +60,14 @@ R7
 R8
 n@hex2@s@seg
 vtestbench
-!s110 1618884091
+R1
 !i10b 1
-!s100 MW@W3:LZcO65_aWDWZ72b3
+!s100 >zYKlY>87NUdXg=BRJH9_1
 R2
-IFSOZR0B4>@[ZK:^FWK3@j0
+ILbem6C24dNCeX59X8TFaF1
 R3
 R0
-w1618883977
+w1619317049
 8E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/testbench.v
 FE:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/testbench.v
 !i122 2

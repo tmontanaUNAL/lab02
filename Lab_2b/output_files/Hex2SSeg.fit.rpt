@@ -1,5 +1,5 @@
 Fitter report for Hex2SSeg
-Wed Apr 21 19:42:26 2021
+Sat Apr 24 21:07:13 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -69,7 +69,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Wed Apr 21 19:42:26 2021       ;
+; Fitter Status                      ; Successful - Sat Apr 24 21:07:13 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; Hex2SSeg                                    ;
 ; Top-level Entity Name              ; Hex2SSeg                                    ;
@@ -153,15 +153,16 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 2           ;
-; Maximum allowed            ; 2           ;
+; Number detected on machine ; 6           ;
+; Maximum allowed            ; 6           ;
 ;                            ;             ;
-; Average used               ; 1.01        ;
-; Maximum used               ; 2           ;
+; Average used               ; 1.02        ;
+; Maximum used               ; 6           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.5%      ;
+;     Processor 2            ;   0.4%      ;
+;     Processors 3-6         ;   0.4%      ;
 +----------------------------+-------------+
 
 
@@ -213,7 +214,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/fabia/Desktop/Electronica dijital/lab02/Lab_2b/output_files/Hex2SSeg.pin.
+The pin-out file can be found in E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/output_files/Hex2SSeg.pin.
 
 
 +---------------------------------------------------------------------+
@@ -1053,7 +1054,7 @@ Note: This table only shows the top 1 path(s) that have the largest delay added 
 ; Fitter Messages ;
 +-----------------+
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (119006): Selected device EP4CE10E22C8 for design "Hex2SSeg"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
@@ -1076,13 +1077,13 @@ Info (332144): No user constrained base clocks found in the design
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
-Info (176353): Automatically promoted node clk~input (placed in PIN 23 (CLK1, DIFFCLK_0n)) File: C:/Users/fabia/Desktop/Electronica dijital/lab02/Lab_2b/Hex2SSeg.v Line: 6
+Info (176353): Automatically promoted node clk~input (placed in PIN 23 (CLK1, DIFFCLK_0n)) File: E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/Hex2SSeg.v Line: 6
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G2
-Info (176353): Automatically promoted node cfreq[12]  File: C:/Users/fabia/Desktop/Electronica dijital/lab02/Lab_2b/Hex2SSeg.v Line: 27
+Info (176353): Automatically promoted node cfreq[12]  File: E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/Hex2SSeg.v Line: 27
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node cfreq[12]~37 File: C:/Users/fabia/Desktop/Electronica dijital/lab02/Lab_2b/Hex2SSeg.v Line: 27
-        Info (176357): Destination node led~output File: C:/Users/fabia/Desktop/Electronica dijital/lab02/Lab_2b/Hex2SSeg.v Line: 11
+        Info (176357): Destination node cfreq[12]~37 File: E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/Hex2SSeg.v Line: 27
+        Info (176357): Destination node led~output File: E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/Hex2SSeg.v Line: 11
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
@@ -1102,37 +1103,37 @@ Info (176215): I/O bank details before I/O pin placement
 Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "an[3]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "an[4]" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 1% of the available device resources in the region that extends from location X23_Y0 to location X34_Y11
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.40 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
+Info (11888): Total time spent on timing analysis during the Fitter is 0.12 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
-Info (144001): Generated suppressed messages file C:/Users/fabia/Desktop/Electronica dijital/lab02/Lab_2b/output_files/Hex2SSeg.fit.smsg
+Info (144001): Generated suppressed messages file E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/output_files/Hex2SSeg.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 9 warnings
-    Info: Peak virtual memory: 5193 megabytes
-    Info: Processing ended: Wed Apr 21 19:42:28 2021
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:10
+    Info: Peak virtual memory: 5620 megabytes
+    Info: Processing ended: Sat Apr 24 21:07:13 2021
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:05
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/fabia/Desktop/Electronica dijital/lab02/Lab_2b/output_files/Hex2SSeg.fit.smsg.
+The suppressed messages can be found in E:/Users/tisam.SUPER-PC/Documents/GitHub/lab02/Lab_2b/output_files/Hex2SSeg.fit.smsg.
 
 

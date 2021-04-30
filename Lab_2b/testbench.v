@@ -31,7 +31,7 @@ module testbench;
 
 	// Outputs
 	wire [6:0] sseg;
-	wire [4:0] an;
+	wire [2:0] an;
 
 	// Instantiate the Unit Under Test (UUT)
 	Hex2SSeg uut (
